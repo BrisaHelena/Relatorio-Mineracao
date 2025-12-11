@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Montagem de Equipamentos – XCMG</title>
+  <style>
+    :root {
+      --azul: #0062B0;
+      --amarelo: #ffc05a;
+      --cinza-claro: #f4f7fa;
+      --branco: #ffffff;
+      --texto: #333333;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: var(--cinza-claro);
+      color: var(--texto);
+    }
+    header {
+      background-color: var(--azul);
+      color: var(--branco);
+      padding: 60px 40px;
+      text-align: center;
+    }
+    header .logo {
+      max-height: 80px;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    header p.subtitle {
+      margin: 8px 0 0;
+      font-size: 16px;
+      font-weight: 300;
+      opacity: 0.9;
+    }
+    .container {
+      width: 85%;
+      max-width: 1000px;
+      margin: 40px auto;
+      background: var(--branco);
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+    .container h2 {
+      color: var(--azul);
+      border-left: 6px solid var(--amarelo);
+      padding-left: 12px;
+      margin-top: 0;
+    }
+    .container p, .container .resumo {
+      line-height: 1.6;
+    }
+    .resumo {
+      background: #f9fafc;
+      padding: 20px;
+      border-left: 5px solid var(--azul);
+      border-radius: 6px;
+      margin: 20px 0;
+    }
+    img.figure {
+      width: 100%;
+      margin: 30px 0;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+    }
+    .legend {
+      font-size: 14px;
+      color: #555;
+      text-align: center;
+      margin-top: -15px;
+      margin-bottom: 30px;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px 0;
+      background-color: var(--azul);
+      color: var(--branco);
+      text-align: center;
+      font-size: 14px;
+    }
+    footer img.footer-logo {
+      max-height: 50px;
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Relatório Mineração – XCMG</h1>
+    <p class="subtitle">Montagem de Equipamentos</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Sessão 1: G3 -->
+    <h2>G3</h2>
+    <div class="resumo">
+      <p>Em 28/11/2025 entregamos uma <strong>XDE130</strong> — veja a foto da entrega abaixo.</p>
+      <p>A segunda <strong>XDE130</strong> está em montagem, com previsão de entrega para Dezembro/2025.</p>
+    </div>
+    <img src="img/entrega-xde130-g3.png" alt="Entrega técnica XDE130 – G3" class="figure">
+    <div class="legend">Entrega técnica da XDE130 — G3, 28/11/2025.</div>
+
+    <!-- Sessão 2: Vale -->
+    <h2>Vale</h2>
+    <div class="resumo">
+      <p>Entregamos a <strong>GR5505</strong> no dia 10/11/2025, em Carajás – Vale.</p>
+    </div>
+
+    <!-- (Se houver foto da entrega ou máquina) -->
+    <!-- <img src="img/entrega-gr5505-vale.png" alt="Entrega GR5505 – Vale" class="figure">
+    <div class="legend">Entrega GR5505 — Vale, 10/11/2025.</div> -->
+
+    <!-- Sessão 3: CSN -->
+    <h2>CSN</h2>
+    <div class="resumo">
+      <p>Na CSN há 2 máquinas em montagem:</p>
+      <ul>
+        <li><strong>XDE260:</strong> 47% concluído — previsão de entrega: 22/12/2025.</li>
+        <li><strong>XGE95:</strong> Cliente está trocando os implementos, por isso a entrega depende da liberação.</li>
+      </ul>
+    </div>
+    <img src="img/montagem-xde260-csn.png" alt="Montagem XDE260 – CSN" class="figure">
+    <div class="legend">Montagem da XDE260 — CSN (status 47%).</div>
+
+  </div>
+
+  <footer>
+    <img src="img/logo XCMG.png" class="footer-logo" alt="Logo XCMG">
+    <p>XCMG Brasil • Mineração • 2025</p>
+  </footer>
+
+</body>
+</html>
